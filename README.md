@@ -12,7 +12,7 @@ Feedbacks and contributions are always welcome.
 
 You can enable unoffical repo running the commands below via SSH for pfSense 2.3 or higher
 
-fetch -q -o /usr/local/share/BluePexUTM/pkg/repos/ExtraPkgs.conf https://raw.githubusercontent.com/mvclaudianobj/extra-pkg/master/Unofficial.conf
+fetch -q -o /usr/local/etc/pkg/repos/ExtraPkgs.conf https://raw.githubusercontent.com/mvclaudianobj/extra-pkg/master/Unofficial.conf
 
 After fetching the repo file and applying the patch described above, you will be able to see these packages under System -> Package Manager
 
